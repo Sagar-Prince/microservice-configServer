@@ -1,15 +1,6 @@
 server:
   port: 8086
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-    fetch-registry: true
-    register-with-eureka: true
-  instance:
-    prefer-ip-address: true
-
 spring:
   application:
     name: CONFIG-SERVER
@@ -18,5 +9,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Sagar-Prince/microservice-configServer/blob/master/src/main/resources/application.yml
+          uri: https://github.com/Sagar-Prince/config-server-properties
           clone-on-start: true
