@@ -18,5 +18,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Sagar-Prince/microservice-configServer
+          uri: https://github.com/Sagar-Prince/microservice-configServer/blob/master/src/main/resources/application.yml
           clone-on-start: true
